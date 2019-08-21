@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ecf0f1;
+}
+
+/*****************************HEADER STYLES*****************************/
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 64px;
+    font-weight: 300;
+    margin: 80px 0 25px;
+    color: #eff2f5;
+}
+
+header h1 span {
+    font-weight: 700;
+}
+
+header h2 {
+    color: #eff2f5;
+    font-weight: 300;
+}
+
+/*****************************FORM STYLES*****************************/
+
+.form {
+    width: 800px;
+    margin: 50px auto 20px;
+}
+
+#todoInput {
+    width: 100%;
+    height: 60px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #bdc3c7;
+    outline: none;
+    font: 300 28px 'Ubuntu', sans-serif;
+    padding: 20px;
+    color: #bdc3c7;
+}
+::placeholder {
+    color: #bdc3c7;
+}
+
+/*****************************LIST STYLES*****************************/
+.list {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.hover {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    padding: 0 20px;
+    color: #bdc3c7;
+    transition: all .3s ease;
+}
+
+.task {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    padding: 0 20px;
+    color: #bdc3c7;
+    transition: all .3s ease;
+}
+
+.task:hover {
+    background: rgba(18, 223, 97, 0.02);
+    cursor: pointer;
+}
+
+.hover:hover {
+    background: rgba(18, 223, 97, 0.02);
+    cursor: pointer;
+}
+
+.task:hover span {
+    opacity: 1;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #bdc3c7;
+}
+
+li span {
+    float: right;
+    color: #c0392b;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+li span:hover {
+    color: #e74c3c
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    background-color: #4d535c;
+
+}
